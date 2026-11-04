@@ -1,6 +1,9 @@
 package com.streamvault.app.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalContext
+import android.content.Intent
+import com.streamvault.app.plex.PlexActivity
 import androidx.lifecycle.compose.dropUnlessResumed
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -51,6 +54,7 @@ internal fun AppNavHost(
     onTopLevelDestinationRequested: (AppDestination) -> Unit,
     onCloseApp: () -> Unit
 ) {
+    val context = LocalContext.current
     NavHost(
         navController = navController,
         startDestination = SystemRoutePatterns.WELCOME
@@ -162,6 +166,7 @@ internal fun AppNavHost(
                     onAddProvider = dropUnlessResumed {
                         actions.navigate(AppDestination.ProviderSetup())
                     },
+                    onOpenPlex = { context.startActivity(Intent(context, PlexActivity::class.java)) },
                     onEditProvider = { provider ->
                         actions.navigate(
                             AppDestination.ProviderSetup(providerId = provider.id),

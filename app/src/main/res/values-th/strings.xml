@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
 
     <string name="nav_home">หน้าแรก</string>
@@ -346,4 +346,11 @@
     <string name="nav_sports">กีฬา</string>
     <string name="stremio_new_episode_channel">การแจ้งเตือนตอนใหม่</string>
     <string name="stremio_new_episode_count">ตอนใหม่: %1$d</string>
+    <string name="plex_back">ย้อนกลับ</string>
+    <string name="plex_sign_out">ออกจากระบบ</string>
+    <string name="plex_link_account">เชื่อมต่อบัญชี Plex</string>
+    <string name="plex_choose_server">เลือกเซิร์ฟเวอร์</string>
+    <string name="plex_playback_unavailable">ไม่สามารถเล่นได้</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

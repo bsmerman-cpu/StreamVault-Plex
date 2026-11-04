@@ -37,6 +37,7 @@ public fun SettingsContentPane(
     dialogState: SettingsScreenDialogState,
     providerState: SettingsProviderSectionState,
     onAddProvider: () -> Unit,
+    onOpenPlex: () -> Unit,
     onEditProvider: (Provider) -> Unit,
     onNavigateToParentalControl: (Long) -> Unit,
     onChooseRecordingFolder: () -> Unit,
@@ -285,6 +286,7 @@ public fun SettingsContentPane(
                         providerSection(
                             uiState = uiState,
                             onAddProvider = onAddProvider,
+                            onOpenPlex = onOpenPlex,
                             onEditProvider = onEditProvider,
                             onNavigateToParentalControl = onNavigateToParentalControl,
                             viewModel = viewModel,

@@ -1,4 +1,10 @@
-# StreamVault
+# StreamVault Plex
+
+This is a public, noncommercial fork based on [StreamVault by David Nashash (Davidona)](https://github.com/Davidona/StreamVault-IPTV). It preserves the upstream [license](LICENSE) and author links. The fork adds a personal Plex Movies and Series library. It does not include a Plex account or media.
+
+Open **Settings → Your providers → Plex** to link an account. On another device, visit `plex.tv/link`, enter the code shown on the TV, then choose one of your Plex servers and a movie or show library. Movie and episode playback currently uses Plex's direct media stream; files requiring server transcoding may not play. The Plex access token is encrypted with Android Keystore on the TV. This fork checks its own releases for updates, so it will not replace itself with an upstream APK.
+
+## Original StreamVault project
 
 <p align="center">
 	<a href="https://github.com/Davidona/StreamVault-IPTV/releases/latest/download/StreamVault.apk"><img src="https://img.shields.io/badge/Download-StreamVault.apk-2ea44f?style=for-the-badge&logo=android" alt="Download StreamVault APK" /></a>

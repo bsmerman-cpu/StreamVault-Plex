@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
 
     <string name="nav_home">Domov</string>
@@ -346,4 +346,11 @@
     <string name="nav_sports">Šport</string>
     <string name="stremio_new_episode_channel">Oznámenia o nových epizódach</string>
     <string name="stremio_new_episode_count">Nové epizódy: %1$d</string>
+    <string name="plex_back">Späť</string>
+    <string name="plex_sign_out">Odhlásiť sa</string>
+    <string name="plex_link_account">Pripojiť účet Plex</string>
+    <string name="plex_choose_server">Vybrať server</string>
+    <string name="plex_playback_unavailable">Prehrávanie nie je dostupné</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

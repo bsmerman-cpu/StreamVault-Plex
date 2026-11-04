@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
     <string name="nav_home">홈</string>
     <string name="nav_live_tv">라이브 TV</string>
     <string name="nav_movies">영화</string>
@@ -293,4 +293,11 @@
     <string name="nav_sports">스포츠</string>
     <string name="stremio_new_episode_channel">새 에피소드 알림</string>
     <string name="stremio_new_episode_count">새 에피소드: %1$d</string>
+    <string name="plex_back">뒤로</string>
+    <string name="plex_sign_out">로그아웃</string>
+    <string name="plex_link_account">Plex 계정 연결</string>
+    <string name="plex_choose_server">서버 선택</string>
+    <string name="plex_playback_unavailable">재생할 수 없음</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

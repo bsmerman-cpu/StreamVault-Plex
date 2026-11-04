@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
 
     <string name="nav_home">Utama</string>
@@ -347,4 +347,11 @@
     <string name="nav_sports">Sukan</string>
     <string name="stremio_new_episode_channel">Pemberitahuan episod baharu</string>
     <string name="stremio_new_episode_count">Episod baharu: %1$d</string>
+    <string name="plex_back">Kembali</string>
+    <string name="plex_sign_out">Log keluar</string>
+    <string name="plex_link_account">Pautkan akaun Plex</string>
+    <string name="plex_choose_server">Pilih pelayan</string>
+    <string name="plex_playback_unavailable">Main balik tidak tersedia</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

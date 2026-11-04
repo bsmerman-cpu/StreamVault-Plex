@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
     <string name="nav_home">首页</string>
     <string name="nav_live_tv">直播电视</string>
     <string name="nav_movies">电影</string>
@@ -293,4 +293,11 @@
     <string name="nav_sports">体育</string>
     <string name="stremio_new_episode_channel">新剧集通知</string>
     <string name="stremio_new_episode_count">新剧集: %1$d</string>
+    <string name="plex_back">返回</string>
+    <string name="plex_sign_out">退出登录</string>
+    <string name="plex_link_account">关联 Plex 帐户</string>
+    <string name="plex_choose_server">选择服务器</string>
+    <string name="plex_playback_unavailable">无法播放</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

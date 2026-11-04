@@ -38,6 +38,7 @@ import com.streamvault.domain.settings.PlaybackQualityPreferenceScope
 public fun LazyListScope.providerSection(
     uiState: SettingsUiState,
     onAddProvider: () -> Unit,
+    onOpenPlex: () -> Unit,
     onEditProvider: (Provider) -> Unit,
     onNavigateToParentalControl: (Long) -> Unit,
     viewModel: SettingsViewModel,
@@ -70,12 +71,19 @@ public fun LazyListScope.providerSection(
                     color = OnSurfaceDim,
                 )
             }
-            CompactSettingsActionChip(
-                label = stringResource(R.string.settings_add_provider),
-                accent = Primary,
-                onClick = onAddProvider,
-                modifier = if (targetItemId == "sources.add") targetFocusModifier else Modifier,
-            )
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                CompactSettingsActionChip(
+                    label = stringResource(R.string.settings_plex_library),
+                    accent = Primary,
+                    onClick = onOpenPlex,
+                )
+                CompactSettingsActionChip(
+                    label = stringResource(R.string.settings_add_provider),
+                    accent = Primary,
+                    onClick = onAddProvider,
+                    modifier = if (targetItemId == "sources.add") targetFocusModifier else Modifier,
+                )
+            }
         }
     }
     if (uiState.providers.isEmpty()) {

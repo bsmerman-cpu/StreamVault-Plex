@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
 
     <string name="nav_home">होम</string>
@@ -346,4 +346,11 @@
     <string name="nav_sports">खेल</string>
     <string name="stremio_new_episode_channel">नए एपिसोड की सूचनाएँ</string>
     <string name="stremio_new_episode_count">नए एपिसोड: %1$d</string>
+    <string name="plex_back">वापस</string>
+    <string name="plex_sign_out">साइन आउट</string>
+    <string name="plex_link_account">Plex खाता लिंक करें</string>
+    <string name="plex_choose_server">सर्वर चुनें</string>
+    <string name="plex_playback_unavailable">प्लेबैक उपलब्ध नहीं है</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

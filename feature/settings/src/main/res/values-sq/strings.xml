@@ -964,4 +964,5 @@
     <string name="settings_text_size_default">Parazgjedhja (100%)</string>
     <string name="settings_text_size_system">Sipas pajisjes</string>
     <string name="settings_text_size_custom">E personalizuar</string>
+    <string name="settings_plex_library">Plex</string>
 </resources>

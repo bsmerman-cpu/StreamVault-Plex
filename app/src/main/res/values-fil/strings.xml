@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
 
     <string name="nav_home">Home</string>
@@ -346,4 +346,11 @@
     <string name="nav_sports">Palakasan</string>
     <string name="stremio_new_episode_channel">Mga abiso para sa bagong episode</string>
     <string name="stremio_new_episode_count">Mga bagong episode: %1$d</string>
+    <string name="plex_back">Bumalik</string>
+    <string name="plex_sign_out">Mag-sign out</string>
+    <string name="plex_link_account">I-link ang Plex account</string>
+    <string name="plex_choose_server">Pumili ng server</string>
+    <string name="plex_playback_unavailable">Hindi available ang playback</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

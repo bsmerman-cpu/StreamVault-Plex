@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
     <string name="nav_home">Otthon</string>
     <string name="nav_live_tv">Élő TV</string>
     <string name="nav_movies">Filmek</string>
@@ -293,4 +293,11 @@
     <string name="nav_sports">Sport</string>
     <string name="stremio_new_episode_channel">Értesítések új epizódokról</string>
     <string name="stremio_new_episode_count">Új epizódok: %1$d</string>
+    <string name="plex_back">Vissza</string>
+    <string name="plex_sign_out">Kijelentkezés</string>
+    <string name="plex_link_account">Plex-fiók összekapcsolása</string>
+    <string name="plex_choose_server">Szerver kiválasztása</string>
+    <string name="plex_playback_unavailable">A lejátszás nem érhető el</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

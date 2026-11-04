@@ -58,6 +58,7 @@ public fun SettingsScreen(
     navigationDestinations: List<UiDestination> = emptyList(),
     onBack: () -> Unit = {},
     onAddProvider: () -> Unit = {},
+    onOpenPlex: () -> Unit = {},
     onEditProvider: (Provider) -> Unit = {},
     onNavigateToParentalControl: (Long) -> Unit = {},
     initialBackupImportUri: String? = null,
@@ -644,6 +645,7 @@ public fun SettingsScreen(
                     dialogState = dialogState,
                     providerState = providerState,
                     onAddProvider = onAddProvider,
+                    onOpenPlex = onOpenPlex,
                     onEditProvider = onEditProvider,
                     onNavigateToParentalControl = onNavigateToParentalControl,
                     onChooseRecordingFolder = {

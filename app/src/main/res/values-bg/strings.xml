@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
 
     <string name="nav_home">Начало</string>
@@ -349,4 +349,11 @@
     <string name="nav_sports">Спорт</string>
     <string name="stremio_new_episode_channel">Известия за нови епизоди</string>
     <string name="stremio_new_episode_count">Нови епизоди: %1$d</string>
+    <string name="plex_back">Назад</string>
+    <string name="plex_sign_out">Изход</string>
+    <string name="plex_link_account">Свързване на Plex акаунт</string>
+    <string name="plex_choose_server">Изберете сървър</string>
+    <string name="plex_playback_unavailable">Възпроизвеждането не е налично</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

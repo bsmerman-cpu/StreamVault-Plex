@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
     <string name="nav_home">الرئيسية</string>
     <string name="nav_live_tv">البث المباشر</string>
     <string name="nav_movies">الأفلام</string>
@@ -295,4 +295,11 @@
     <string name="nav_sports">الرياضة</string>
     <string name="stremio_new_episode_channel">إشعارات الحلقات الجديدة</string>
     <string name="stremio_new_episode_count">الحلقات الجديدة: %1$d</string>
+    <string name="plex_back">رجوع</string>
+    <string name="plex_sign_out">تسجيل الخروج</string>
+    <string name="plex_link_account">ربط حساب Plex</string>
+    <string name="plex_choose_server">اختر خادمًا</string>
+    <string name="plex_playback_unavailable">التشغيل غير متاح</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

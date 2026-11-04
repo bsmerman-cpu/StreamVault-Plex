@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
     
     <string name="nav_home">Home</string>
@@ -346,4 +346,11 @@
     <string name="nav_sports">Sports</string>
     <string name="stremio_new_episode_channel">New episode notifications</string>
     <string name="stremio_new_episode_count">New episodes: %1$d</string>
+    <string name="plex_back">Back</string>
+    <string name="plex_sign_out">Sign out</string>
+    <string name="plex_link_account">Link Plex account</string>
+    <string name="plex_choose_server">Choose a server</string>
+    <string name="plex_playback_unavailable">Playback unavailable</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

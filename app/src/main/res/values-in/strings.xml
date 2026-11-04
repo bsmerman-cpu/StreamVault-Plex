@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
     <string name="nav_home">Rumah</string>
     <string name="nav_live_tv">siaran langsung</string>
     <string name="nav_movies">Film</string>
@@ -293,4 +293,11 @@
     <string name="nav_sports">Olahraga</string>
     <string name="stremio_new_episode_channel">Notifikasi episode baru</string>
     <string name="stremio_new_episode_count">Episode baru: %1$d</string>
+    <string name="plex_back">Kembali</string>
+    <string name="plex_sign_out">Keluar</string>
+    <string name="plex_link_account">Tautkan akun Plex</string>
+    <string name="plex_choose_server">Pilih server</string>
+    <string name="plex_playback_unavailable">Pemutaran tidak tersedia</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>

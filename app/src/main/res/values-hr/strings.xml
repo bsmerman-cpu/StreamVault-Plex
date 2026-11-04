@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">StreamVault</string>
+    <string name="app_name">StreamVault Plex</string>
 
 
     <string name="nav_home">Početna</string>
@@ -346,4 +346,11 @@
     <string name="nav_sports">Sport</string>
     <string name="stremio_new_episode_channel">Obavijesti o novim epizodama</string>
     <string name="stremio_new_episode_count">Nove epizode: %1$d</string>
+    <string name="plex_back">Natrag</string>
+    <string name="plex_sign_out">Odjava</string>
+    <string name="plex_link_account">Poveži Plex račun</string>
+    <string name="plex_choose_server">Odaberi poslužitelj</string>
+    <string name="plex_playback_unavailable">Reprodukcija nije dostupna</string>
+    <string name="plex_library">Plex</string>
+    <string name="plex_link_url">plex.tv/link</string>
 </resources>
